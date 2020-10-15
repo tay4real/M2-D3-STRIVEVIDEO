@@ -1,0 +1,30 @@
+body {
+  background: #0f171e;
+}
+
+.strive-nav-bg {
+  background-color: #0f171e;
+}
+
+nav .dropdown-toggle {
+  color: rgba(255, 255, 255, 0.5);
+}
+nav .dropdown-toggle:hover,
+nav .dropdown-toggle:focus {
+  color: white;
+}
+
+.nav-link {
+  font-weight: 600;
+}
+
+.navbar-expand-lg .nav-item .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.05rem;
+  margin: 8px;
+}
+
+.navbar-expand-lg .nav-item.active .nav-link {
+  border-bottom: 1px solid white;
+}
